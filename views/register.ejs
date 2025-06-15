@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Aurora</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main>
+        <h1>Buat Akun</h1>
+        
+        <% if (error_msg && error_msg.length > 0) { %>
+            <p class="notice error"><%= error_msg %></p>
+        <% } %>
+        
+        <form action="/register" method="POST">
+            <div class="input-group">
+                <input type="email" id="email" name="email" required class="input-field" placeholder="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" required class="input-field" placeholder="Password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <button type="submit">Daftar</button>
+        </form>
+
+        <p>Sudah punya akun? <a href="/login">Login di sini</a></p>
+    </main>
+</body>
+</html>
