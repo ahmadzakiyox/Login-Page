@@ -1,6 +1,6 @@
 # Sistem Login & Registrasi Modern (Node.js)
 
-![Tampilan Aplikasi](https://i.imgur.com/G3i5FmN.png)
+![Tampilan Aplikasi](*https://i.imgur.com/G3i5FmN.pn*)
 
 Sebuah sistem autentikasi pengguna lengkap yang dibangun dengan Node.js, Express, dan SQLite3. Proyek ini mencakup fitur-fitur esensial seperti registrasi, login, verifikasi email yang aman, dan hashing kata sandi. Tampilannya dirancang dengan gaya modern "Aurora Glassmorphism" yang populer pada tahun 2025.
 
